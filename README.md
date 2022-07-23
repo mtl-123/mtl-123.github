@@ -2,7 +2,7 @@
 
 [Markdown语法](https://zhuanlan.zhihu.com/p/409411268)
 [linux 硬件信息查询](https://zhuanlan.zhihu.com/p/400027233)
-
+[markdown语法整理](https://guo365.github.io/study/Markdown.html)
 **[NVIDIA 自动检测脚本](./nvidia.md)**
 **[Kubernetes](./day1.md)**
 **[heml](./helm%20install.md)**
