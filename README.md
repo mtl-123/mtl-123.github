@@ -2,7 +2,7 @@
 
 
 
-**[NVIDIA 自动检测脚本](../mtl-123.github.io/NVIDIA/nvidia.md)**
+**[NVIDIA 自动检测脚本](./nvidia.md)**
 
 [markdown语法](https://github.com/cdoco/markdown-syntax#%E9%94%9A%E7%82%B9)
 
