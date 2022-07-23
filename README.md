@@ -10,30 +10,32 @@
 ## 自动生成左侧导航栏方法
 + 1、把markdown文件导出为html文件，在使用编辑器打开，在最头或者最尾加上[链接中的代码等待1分钟左右](https://blog.csdn.net/jk418756/article/details/89213832)即可生成目录如下图
 
+## 实现瞄点功能
+[实现瞄点功能](https://blog.csdn.net/weixin_45844049/article/details/103866977)
 
 ## VS code 配置 markdown + PPT写作配置指南
 
 ## VScode 插件
-+ [Pandoc 通用文档转换器](https://www.pandoc.org/index.html)
+[Pandoc 通用文档转换器](https://www.pandoc.org/index.html)
   
-+ [marp markdown编写PPT插件 ](https://marp.app/)
+[marp markdown编写PPT插件 ](https://marp.app/)
 
-+ [Slidev PPT插件](https://cn.sli.dev/guide/)
+[Slidev PPT插件](https://cn.sli.dev/guide/)
 
-+ Markdown All in One
+Markdown All in One
     - 支持表格格式化Alt+Shift+f
-+ Paste Image: vscode 粘图插件 快捷键  CTRL+Alt+v
-+ Markdown Preview Enhanced
+Paste Image: vscode 粘图插件 快捷键  CTRL+Alt+v
+Markdown Preview Enhanced
 
 
-+ Atom One Dark Theme 主题颜色
-+ Live Server
-+ markmap 思维导图
-+ Vscode Blink Mind 思维导图
+Atom One Dark Theme 主题颜色
+Live Server
+markmap 思维导图
+Vscode Blink Mind 思维导图
   + 只支持 保存为 .blinkmind 和 .bm 后缀文件
-+ vscode-mindmap 脑图 
+vscode-mindmap 脑图 
   + 文件保存后缀.km会自动显示或者用快捷键ctrl/cmd + m显示, 
-+ PlantUML 时序图
+PlantUML 时序图
   + 文件后缀名*.pu, *.puml结尾,同时，还必须安装：Java 环境和Graphviz-Dot才能使用
 
 
