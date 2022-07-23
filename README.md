@@ -1,7 +1,11 @@
 <center> <font face="楷体" size=6 color=red> 标题居中 字体 字体大小 字体颜色 </font> </center>
 
 
-
+**[NVIDIA 自动检测脚本](./nvidia.md)**
+**[Kubernetes](./day1.md)**
+**[heml](./helm%20install.md)**
+**[Heml](./Helm%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%9B%86.mm.md)**
+**[Kubernetes](./tools.md)**
 
 ## 自动生成左侧导航栏方法
 + 1、把markdown文件导出为html文件，在使用编辑器打开，在最头或者最尾加上[链接中的代码等待1分钟左右](https://blog.csdn.net/jk418756/article/details/89213832)即可生成目录如下图
