@@ -8,11 +8,11 @@
 **[Kubernetes](./tools.md)**
 
 ## 自动生成左侧导航栏方法
-+ 1、把markdown文件导出为html文件，在使用编辑器打开，在最头或者最尾加上[链接中的代码等待1分钟左右](https://blog.csdn.net/jk418756/article/details/89213832)即可生成目录如下图
+- 1、把markdown文件导出为html文件，在使用编辑器打开，在最头或者最尾加上[链接中的代码等待1分钟左右](https://blog.csdn.net/jk418756/article/details/89213832)即可生成目录如下图
 
 ## 实现瞄点功能
 [实现瞄点功能](https://blog.csdn.net/weixin_45844049/article/details/103866977)
-
+[markdown功能](https://www.cnblogs.com/dotnetcrazy/p/9180295.html#divtop)
 ## VS code 配置 markdown + PPT写作配置指南
 
 ## VScode 插件
@@ -101,46 +101,6 @@ print(hello world!)
 
 [一款面向程序员的 Markdown 笔记应用](https://github.com/purocean/yn/blob/develop/README_ZH-CN.md)
 
-# 侧边栏
-
-[生成侧边栏目录]<https://blog.csdn.net/jk418756/article/details/89213832>
-
----
-marp: true
-author: MeiChen
----
-<!-- TOC -->
-
-- [markdown js语法](#markdown-js语法)
-- [思维导图，时序图](#思维导图时序图)
-- [思维导图](#思维导图)
-- [JS饼图](#js饼图)
-- [侧边栏](#侧边栏)
-  - [author: MeiChen](#author-meichen)
-  - [设置图像的长宽](#设置图像的长宽)
-  - [定义尺寸](#定义尺寸)
-  - [定义大小并剧中显示](#定义大小并剧中显示)
-  - [插入图像](#插入图像)
-  - [插入音乐](#插入音乐)
-  - [插入视频](#插入视频)
-  - [超链接](#超链接)
-  - [跳转链接](#跳转链接)
-    - [时序图](#时序图)
-  - [类图](#类图)
-  - [多种矩阵形式输入](#多种矩阵形式输入)
-- [带大括号的：](#带大括号的)
-  - [带中括号的](#带中括号的)
-  - [绘制流程图 Flowchart](#绘制流程图-flowchart)
-  - [mermaid](#mermaid)
-
-<!-- /TOC -->
-
-
----
-
-
-
-
 
 
 ## 设置图像的长宽
@@ -161,7 +121,8 @@ author: MeiChen
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=528478901&auto=1&height=66"></iframe>
 
 ## 插入视频
-> 不支持优酷，可以用youtube。
+> 不支持优酷，可以用youtube
+> 
 <iframe width="560" height="315" src="https://v.qq.com/x/cover/mzc00200ets769l/j0042w9d0xy.html?n_version=2021" frameborder="0" allowfullscreen></iframe>
 
 > 插入Gif必须是在线https://的gif 本地路径的gif无法显示 
@@ -177,22 +138,8 @@ author: MeiChen
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### 时序图
+
 > 需要安装 PlantUML并配置本地环境才能使用
 ```PlantUML
 @startuml test
@@ -209,7 +156,6 @@ Entity --> Main: onRender()
 @enduml
 ```
 
----
 
 ## 类图
 > 需要安装 PlantUML并配置本地环境才能使用
@@ -323,7 +269,7 @@ Class01 : int gorilla
 Class08 <--> C2: Cool lable
 ```
 
----
+
 
 ```mermaid
 graph TD;
