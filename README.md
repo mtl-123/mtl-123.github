@@ -1,5 +1,11 @@
 ## 欢迎使用 GitHub Pages 
 
+
+
+**[NVIDIA 自动检测脚本](../mtl-123.github.io/NVIDIA/nvidia.md))**
+
+[markdown语法](https://github.com/cdoco/markdown-syntax#%E9%94%9A%E7%82%B9)
+
 You can use the [editor on GitHub](https://github.com/mtl-123/mtl-123.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
