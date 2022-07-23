@@ -1,5 +1,7 @@
 <center> <font face="楷体" size=6 color=red> 标题居中 字体 字体大小 字体颜色 </font> </center>
 
+[Markdown语法](https://zhuanlan.zhihu.com/p/409411268)
+[linux 硬件信息查询](https://zhuanlan.zhihu.com/p/400027233)
 
 **[NVIDIA 自动检测脚本](./nvidia.md)**
 **[Kubernetes](./day1.md)**
@@ -11,11 +13,15 @@
 - 1、把markdown文件导出为html文件，在使用编辑器打开，在最头或者最尾加上[链接中的代码等待1分钟左右](https://blog.csdn.net/jk418756/article/details/89213832)即可生成目录如下图
 
 ## 实现瞄点功能
+
 [实现瞄点功能](https://blog.csdn.net/weixin_45844049/article/details/103866977)
+
 [markdown功能](https://www.cnblogs.com/dotnetcrazy/p/9180295.html#divtop)
+
 ## VS code 配置 markdown + PPT写作配置指南
 
 ## VScode 插件
+
 [Pandoc 通用文档转换器](https://www.pandoc.org/index.html)
   
 [marp markdown编写PPT插件 ](https://marp.app/)
