@@ -56,7 +56,7 @@ if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
 ```
 
-如果是使用装饰器的情况下，路由的别名就是函数名！！！
+> 如果是使用装饰器的情况下，路由的别名就是函数名！！！
 
 ### 路由别名的坑
 
@@ -92,14 +92,13 @@ if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')     
 ```
 
-项目运行会报错
+>项目运行会报错
 > 报错：AssertionError: View function mapping is overwriting an existing endpoint function: index
+>原因：
+>被装饰器装饰的这个函数，它的 endpoint就会变成实际执行的这个函数，最终就会变成inner这个函数名
+>如果两个路由的别名是一样的，就会报错
 
-原因：
-被装饰器装饰的这个函数，它的 endpoint就会变成实际执行的这个函数，最终就会变成inner这个函数名
-如果两个路由的别名是一样的，就会报错
-
-验证：
+>验证：
 
 ```python
 app.add_url_rule('/', 'index', index)
@@ -110,9 +109,9 @@ app.add_url_rule('/home', 'index', home)
 
 ### 请求对象 request
 
-1. 需要导入，局部对象，只能在视图函数中使用
-2. 当content_type为application/json的时候，request.json就是传递来的json数据，并且会反序列化json为dict，如果不是，那么调用这个属性就会直接截断
-3. request.data 只有当content_type为application的时候才有值，其值为bytes
+>1. 需要导入，局部对象，只能在视图函数中使用
+>2. 当content_type为application/json的时候，request.json就是传递来的json数据，并且会反序列化json为dict，如果不是，那么调用这个属性就会直接截断
+>3. request.data 只有当content_type为application的时候才有值，其值为bytes
 
 ```python
 from flask import Flask, request
@@ -146,10 +145,10 @@ if __name__ == '__main__':
 [Flask官网views 视图](https://flask.palletsprojects.com/en/2.1.x/tutorial/views/#)
 
 ### 第一种类视图
->
+
 >1. 直接继承自 views.View
 >2. 注意：必须要重写 dispatch_request 这个方法
->
+
 ```python
 from flask import Flask, views, request
 
@@ -201,8 +200,10 @@ if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
 ```
 ## 响应
+
 >1. flask里面可以直接返回字符串
 >2. 返回字典 --> 会自动变为json  响应头: application/json
+
 ```python
 from flask import Flask, jsonify, make_response
 
@@ -225,5 +226,4 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
-
 ```
