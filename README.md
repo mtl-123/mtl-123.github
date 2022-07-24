@@ -1,16 +1,23 @@
 <center> <font face="楷体" size=6 color=red> 标题居中 字体 字体大小 字体颜色 </font> </center>
 
 [Markdown语法](https://zhuanlan.zhihu.com/p/409411268)
+
 [linux 硬件信息查询](https://zhuanlan.zhihu.com/p/400027233)
+
 [markdown语法整理](https://guo365.github.io/study/Markdown.html)
+
 **[NVIDIA 自动检测脚本](./nvidia.md)**
+
 **[Kubernetes](./day1.md)**
+
 **[heml](./helm%20install.md)**
+
 **[Heml](./Helm%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%9B%86.mm.md)**
+
 **[Kubernetes](./tools.md)**
 
 ## 自动生成左侧导航栏方法
-- 1、把markdown文件导出为html文件，在使用编辑器打开，在最头或者最尾加上[链接中的代码等待1分钟左右](https://blog.csdn.net/jk418756/article/details/89213832)即可生成目录如下图
++ 1、把markdown文件导出为html文件，在使用编辑器打开，在最头或者最尾加上[链接中的代码等待1分钟左右](https://blog.csdn.net/jk418756/article/details/89213832)即可生成目录如下图
 
 ## 实现瞄点功能
 
@@ -28,34 +35,35 @@
 
 [Slidev PPT插件](https://cn.sli.dev/guide/)
 
-Markdown All in One
++ Markdown All in One
     - 支持表格格式化Alt+Shift+f
-Paste Image: vscode 粘图插件 快捷键  CTRL+Alt+v
-Markdown Preview Enhanced
++ Paste Image: vscode 粘图插件 快捷键  CTRL+Alt+v
++ Markdown Preview Enhanced
 
 
-Atom One Dark Theme 主题颜色
-Live Server
-markmap 思维导图
-Vscode Blink Mind 思维导图
-  + 只支持 保存为 .blinkmind 和 .bm 后缀文件
-vscode-mindmap 脑图 
-  + 文件保存后缀.km会自动显示或者用快捷键ctrl/cmd + m显示, 
-PlantUML 时序图
-  + 文件后缀名*.pu, *.puml结尾,同时，还必须安装：Java 环境和Graphviz-Dot才能使用
-
-
-
++ Atom One Dark Theme 主题颜色
++ Live Server
++ markmap 思维导图
++ Vscode Blink Mind 思维导图
+  - 只支持 保存为 .blinkmind 和 .bm 后缀文件
++ vscode-mindmap 脑图 
+  - 文件保存后缀.km会自动显示或者用快捷键ctrl/cmd + m显示, 
++ PlantUML 时序图
+  - 文件后缀名*.pu, *.puml结尾,同时，还必须安装：Java 环境和Graphviz-Dot才能使用
 
 ## 使用标准字体
 <font face="黑体">我是黑体字</font>
+
 <font face="微软雅黑">我是微软雅黑</font>
+
 <font face="STCAIYUN">我是华文彩云</font>
 
 ## 表格
+
 | 表头 | 左对齐--- | 居中  | ---右对齐 |
 | ---- | :-------- | :---: | --------: |
 | 参数 | 参数      | 参数  |      参数 |
+
 
 ## 引用
 >一
@@ -70,9 +78,6 @@ PlantUML 时序图
 ## 复选框
 - [x] 选择
 - [ ] 未选择
-
-
-
 
 ## 代码块
 
