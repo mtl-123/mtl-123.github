@@ -20,7 +20,8 @@
 
 # 访问
 
+```python
 ip:30080
-
 用户：admin
 密码：Kuboard123
+```

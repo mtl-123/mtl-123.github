@@ -1,66 +1,63 @@
 <center> <font face="楷体" size=6 color=red> 标题居中 字体 字体大小 字体颜色 </font> </center>
 
-[Markdown语法](https://zhuanlan.zhihu.com/p/409411268)
+**[Markdown语法](https://zhuanlan.zhihu.com/p/409411268)**
 
-[linux 硬件信息查询](https://zhuanlan.zhihu.com/p/400027233)
+**[linux 硬件信息查询](https://zhuanlan.zhihu.com/p/400027233)**
 
-[markdown语法整理](https://guo365.github.io/study/Markdown.html)
+**[markdown语法整理](https://guo365.github.io/study/Markdown.html)**
 
-**[NVIDIA 自动检测脚本](./nvidia.md)**
+**[NVIDIA自动检测脚本](./auto-nvidia.md)**
 
-**[Kubernetes](./day1.md)**
+**[Kubernetes](./kubernetes.md)**
 
-**[heml](./helm%20install.md)**
-
-**[Heml](./Helm%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%9B%86.mm.md)**
+**[Heml](./helm-notes.md)**
 
 **[Kubernetes](./tools.md)**
-
 
 **[前端开发库](https://v5.bootcss.com/)**
 
 **[element](https://element.eleme.cn/#/zh-CN)**
 
-**[Flask开发](./Flask_Notes.md)**
+**[Flask开发](./flask_notes.md)**
 
-**[运维面试题](./Technical_interview_questions.md)**
+**[运维面试题](./study.md)**
 
 ## 自动生成左侧导航栏方法
-+ 1、把markdown文件导出为html文件，在使用编辑器打开，在最头或者最尾加上[链接中的代码等待1分钟左右](https://blog.csdn.net/jk418756/article/details/89213832)即可生成目录如下图
+
++ 1、把markdown文件导出为html文件，在使用编辑器打开，在最头或者最尾加上 **[链接中的代码等待1分钟左右](https://blog.csdn.net/jk418756/article/details/89213832)** 即可生成目录如下图
 
 ## 实现瞄点功能
 
-[实现瞄点功能](https://blog.csdn.net/weixin_45844049/article/details/103866977)
+**[实现瞄点功能](https://blog.csdn.net/weixin_45844049/article/details/103866977)**
 
-[markdown功能](https://www.cnblogs.com/dotnetcrazy/p/9180295.html#divtop)
+**[markdown功能](https://www.cnblogs.com/dotnetcrazy/p/9180295.html#divtop)**
 
 ## VS code 配置 markdown + PPT写作配置指南
 
 ## VScode 插件
 
-[Pandoc 通用文档转换器](https://www.pandoc.org/index.html)
+**[Pandoc 通用文档转换器](https://www.pandoc.org/index.html)**
   
-[marp markdown编写PPT插件 ](https://marp.app/)
+**[marp markdown编写PPT插件](https://marp.app/)**
 
-[Slidev PPT插件](https://cn.sli.dev/guide/)
+**[Slidev PPT插件](https://cn.sli.dev/guide/)**
 
 + Markdown All in One
-    - 支持表格格式化Alt+Shift+f
+  + 支持表格格式化Alt+Shift+f
 + Paste Image: vscode 粘图插件 快捷键  CTRL+Alt+v
 + Markdown Preview Enhanced
-
-
 + Atom One Dark Theme 主题颜色
 + Live Server
 + markmap 思维导图
 + Vscode Blink Mind 思维导图
-  - 只支持 保存为 .blinkmind 和 .bm 后缀文件
-+ vscode-mindmap 脑图 
-  - 文件保存后缀.km会自动显示或者用快捷键ctrl/cmd + m显示, 
+  + 只支持 保存为 .blinkmind 和 .bm 后缀文件
++ vscode-mindmap 脑图
+  + 文件保存后缀.km会自动显示或者用快捷键ctrl/cmd + m显示,
 + PlantUML 时序图
-  - 文件后缀名*.pu, *.puml结尾,同时，还必须安装：Java 环境和Graphviz-Dot才能使用
+  + 文件后缀名*.pu,*.puml结尾,同时，还必须安装：Java 环境和Graphviz-Dot才能使用
 
 ## 使用标准字体
+
 <font face="黑体">我是黑体字</font>
 
 <font face="微软雅黑">我是微软雅黑</font>
@@ -73,20 +70,21 @@
 | ---- | :-------- | :---: | --------: |
 | 参数 | 参数      | 参数  |      参数 |
 
-
 ## 引用
+
 >一
 >>二
 >>>三
 
-
-
 ## 图标快捷键显示
+
 使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
 
 ## 复选框
-- [x] 选择
-- [ ] 未选择
+
++ [x] 选择
+
++ [ ] 未选择
 
 ## 代码块
 
@@ -99,8 +97,8 @@ print(hello world!)
 ```
 
 ## 分割线
----
 
+---
 
 # markdown js语法
 
@@ -121,46 +119,49 @@ print(hello world!)
 
 [一款面向程序员的 Markdown 笔记应用](https://github.com/purocean/yn/blob/develop/README_ZH-CN.md)
 
-
-
 ## 设置图像的长宽
+
 <img src="xxx" width="200" height="300"/>
 
 ## 定义尺寸
+
 <img width = '150' height = '150' src= "https://图片地址"/>
 
 ## 定义大小并剧中显示
+
 <div align=center><img width = '150' height = '150' src="https://图片地址"/></div>
 
 ## 插入图像
+
 ![](2022-06-11-13-20-13.png)
 
-
-
 ## 插入音乐
+
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=528478901&auto=1&height=66"></iframe>
 
 ## 插入视频
+
 > 不支持优酷，可以用youtube
-> 
+>
 <iframe width="560" height="315" src="https://v.qq.com/x/cover/mzc00200ets769l/j0042w9d0xy.html?n_version=2021" frameborder="0" allowfullscreen></iframe>
 
-> 插入Gif必须是在线https://的gif 本地路径的gif无法显示 
-> 可以把本地的Gif上传到一个https://giphy.com/join?next=/create/gifmaker 网站上复制连接即可使用gif动图
+> 插入Gif必须是在线<https://的gif> 本地路径的gif无法显示
+> 可以把本地的Gif上传到一个<https://giphy.com/join?next=/create/gifmaker> 网站上复制连接即可使用gif动图
 
 <iframe width="560" height="315" src="https://www.xxxgit" frameborder="0" allowfullscreen></iframe>
 
 ## 超链接
+
 [百度网址](https://www.baidu.com)
 
 ## 跳转链接
-<a href="https://www.cnblogs.com/MeiCheng/" target="_blank">跳到自己博客列表</a> 跳到自己博客列表：<a href="https://www.cnblogs.com/MeiCheng/"target="_blank">https://www.cnblogs.com/MeiCheng/</a>
 
-
+<a href="https://www.cnblogs.com/MeiCheng/" target="_blank">跳到自己博客列表</a> 跳到自己博客列表：<a href="https://www.cnblogs.com/MeiCheng/"target="_blank"><https://www.cnblogs.com/MeiCheng/></a>
 
 ### 时序图
 
 > 需要安装 PlantUML并配置本地环境才能使用
+
 ```PlantUML
 @startuml test
 == build ==
@@ -176,9 +177,10 @@ Entity --> Main: onRender()
 @enduml
 ```
 
-
 ## 类图
+
 > 需要安装 PlantUML并配置本地环境才能使用
+
 ```
 @startuml test
 
@@ -213,14 +215,15 @@ ClassA <|.. ClassB:实现
 @enduml
 ```
 
-
 ## 多种矩阵形式输入
+
 $$\begin{matrix}
 1&2 \\  3&4 \\ 5&6
 \end{matrix}
 $$
 
-# 带大括号的：
+# 带大括号的
+
 $$\left\{
 \begin{matrix}
 1&2 \\  3&4 \\ 5&6
@@ -237,8 +240,8 @@ $$\left[
 \right]
 $$
 
-
 ## 绘制流程图 Flowchart
+
 ```flow
 st=>start: Start
 e=>end: 需求变更备案
@@ -264,8 +267,8 @@ op5->op6
 op6->e
 ```
 
+## mermaid
 
-## mermaid 
 ```mermaid
 graph TD;
     A-->B;
@@ -273,6 +276,7 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
 ```mermaid
 classDiagram
 Class01 <|-- AveryLongClass : Cool
@@ -288,8 +292,6 @@ Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool lable
 ```
-
-
 
 ```mermaid
 graph TD;

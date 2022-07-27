@@ -1,4 +1,5 @@
 # 自动检测nvidia驱动是否掉卡
+
 ```bash
 if type nvidia-smi >/dev/null 2>&1; then
 	echo -e "\033[32m The video card is running...  \033[0m"
@@ -16,8 +17,10 @@ fi
 ```
 
 
-
 # 添加定时任务
+
 `crontab -e`
+
 # 每两小时执行一次
-* 2 * *  * /bin/bash "/home/smore/check.sh" >> /logs.log
+
+` * 2 * *  * /bin/bash "/home/smore/check.sh" >> /logs.log`
